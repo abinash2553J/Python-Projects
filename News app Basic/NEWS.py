@@ -3,7 +3,7 @@ import requests # pip install requests
 query = input("What type of news are you interested in today? ")
 api = "Enter your API key"
 
-url = f"https://newsapi.org/v2/everything?q={query}&from=2025-02-08&sortBy=publishedAt&apiKey={api}"
+url = f"https://newsapi.org/v2/everything?q={query}&from=2025-05-20&sortBy=publishedAt&apiKey={api}"
 
 print(url)
 r =  requests.get(url)
